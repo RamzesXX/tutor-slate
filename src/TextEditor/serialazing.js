@@ -14,7 +14,7 @@ const typeToProcessorMapping = {
     serializer: serializeStyledTextNode,
   },
   'paragraph': {
-    carsType: 'soa::v2::cars::paragrap',
+    carsType: 'soa::v2::cars::paragraph',
     deserializer: deserializeParagraphNode,
     serializer: serializeParagraphNode,
   },
@@ -120,15 +120,11 @@ function serializeTextNode(node, type) {
  */
 function deserializeStyledTextNode(node) {
   const marks = [Mark.createProperties(node.style)];
+  const nodeWithoutChildren = {...node};
+  delete nodeWithoutChildren.children;
 
   return {
-    data: {
-      color: node.color,
-      highlight: node.highlight,
-      language: node.language,
-      role: node.role,
-      style: node.style
-    },
+    data: nodeWithoutChildren,
     nodes: deserializeNodeWithChildren(node, marks),
     object: 'inline',
     type: 'styled-text'
@@ -146,7 +142,7 @@ function serializeStyledTextNode(node, type) {
   return {
     ...node.data,
     '@type': type,
-    children: node.nodes.map(serializeNode)
+    children: node.nodes.map(serializeNode).filter((value) => value)
   }
 }
 
@@ -157,12 +153,7 @@ function serializeStyledTextNode(node, type) {
  */
 function deserializeComplexMediaNode(node) {
   return {
-    data: {
-      labels: node.labels,
-      media: node.media,
-      showTranslationLabel: node.showTranslationLabel,
-      type: node.type
-    },
+    data: { ...node },
     isVoid: true,
     nodes: [],
     object: 'block',
@@ -192,10 +183,11 @@ function serializeComplexMediaNode(node, type) {
  * @returns node's representation for editor
  */
 function deserializeParagraphNode(node, marks) {
+  const nodeWithoutChildren = {...node};
+  delete nodeWithoutChildren.children;
+
   return {
-    data: {
-      language: node.language,
-    },
+    data: nodeWithoutChildren,
     nodes: deserializeNodeWithChildren(node, marks),
     object: 'block',
     type: 'paragraph'
@@ -213,7 +205,7 @@ function serializeParagraphNode(node, type) {
   return {
     ...node.data,
     '@type': type,
-    children: node.nodes.map(serializeNode)
+    children: node.nodes.map(serializeNode).filter((value) => value)
   }
 }
 

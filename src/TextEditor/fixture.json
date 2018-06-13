@@ -123,6 +123,356 @@
         "value": "1. Marcus aime aller au cinéma."
       }
     ]
+  },
+  {
+    "@type": "soa::v2::cars::table",
+    "tbodys": [
+      {
+        "@type": "soa::v2::cars::tbody",
+        "rows": [
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell"
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "matin"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "après-midi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "soir"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "lundi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Cours à la fac"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Rendez-vous dentiste à 15h"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Travailler pour examen"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "mardi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Cours à la fac"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Gym de 14h à 15h30"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "mercredi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Cours à la fac"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Dîner avec Pascale?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "jeudi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Piscine de 14h à 15h30"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "vendredi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Cours à la fac"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Au lit à 21h!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "samedi"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Marathon"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              },
+              {
+                "@type": "soa::v2::cars::cell"
+              }
+            ]
+          },
+          {
+            "@type": "soa::v2::cars::row",
+            "cells": [
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::cars::styled-text",
+                    "style": "strong",
+                    "children": [
+                      {
+                        "@type": "soa::v2::common::text",
+                        "value": "dimanche"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Étudier"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Étudier"
+                  }
+                ]
+              },
+              {
+                "@type": "soa::v2::cars::cell",
+                "children": [
+                  {
+                    "@type": "soa::v2::common::text",
+                    "value": "Étudier"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
 

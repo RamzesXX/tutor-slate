@@ -1,0 +1,128 @@
+[
+  {
+    "@type": "soa::v2::cars::paragraph",
+    "children": [
+      {
+        "@type": "soa::v2::common::text",
+        "value": "Aujourd\u0027hui, c\u0027est lundi. Regardez l\u0027emploi du temps "
+      },
+      {
+        "@type": "soa::v2::cars::styled-text",
+        "style": "emphasis",
+        "children": [
+          {
+            "@type": "soa::v2::common::text",
+            "value": "(schedule)"
+          }
+        ]
+      },
+      {
+        "@type": "soa::v2::common::text",
+        "value": " de Mehdi et sélectionnez la réponse honnête qu\u0027il donne "
+      },
+      {
+        "@type": "soa::v2::cars::styled-text",
+        "style": "strong",
+        "children": [
+          {
+            "@type": "soa::v2::common::text",
+            "value": "(gives)"
+          }
+        ]
+      },
+      {
+        "@type": "soa::v2::common::text",
+        "value": " à chaque invitation."
+      }
+    ]
+  },
+  {
+    "@type": "soa::v2::cars::paragraph",
+    "children": [
+      {
+        "@type": "soa::v2::common::text",
+        "value": "Aujourd\u0027hui, c\u0027est lundi. Regardez l\u0027emploi du temps "
+      },
+      {
+        "@type": "soa::v2::cars::styled-text",
+        "style": "emphasis",
+        "children": [
+          {
+            "@type": "soa::v2::common::text",
+            "value": "(schedule)"
+          }
+        ]
+      },
+      {
+        "@type": "soa::v2::common::text",
+        "value": " de Mehdi et sélectionnez la réponse honnête qu\u0027il donne "
+      },
+      {
+        "@type": "soa::v2::cars::styled-text",
+        "style": "strong",
+        "children": [
+          {
+            "@type": "soa::v2::common::text",
+            "value": "(gives)"
+          }
+        ]
+      },
+      {
+        "@type": "soa::v2::common::text",
+        "value": " à chaque invitation."
+      }
+    ]
+  },
+  {
+    "@type": "soa::v2::cars::paragraph",
+    "children": [
+      {
+        "@type": "soa::v2::common::text",
+        "value": "Marcus is interviewed about his leisure activities by another student. Listen to the interview. For each activity, select whether Marcus likes it "
+      },
+      {
+        "@type": "soa::v2::cars::styled-text",
+        "style": "strong",
+        "children": [
+          {
+            "@type": "soa::v2::common::text",
+            "value": "beaucoup, assez,"
+          }
+        ]
+      },
+      {
+        "@type": "soa::v2::common::text",
+        "value": " or "
+      },
+      {
+        "@type": "soa::v2::cars::styled-text",
+        "style": "strong",
+        "children": [
+          {
+            "@type": "soa::v2::common::text",
+            "value": "pas du tout."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@type": "soa::v2::cars::complex-media",
+    "media": {
+      "@type": "soa::v2::cars::media",
+      "cgiRef": "RKXQ69LDE4WGLH4W6491",
+      "mediaType": "audio"
+    },
+    "type": "audio-player"
+  },
+  {
+    "@type": "soa::v2::cars::paragraph",
+    "children": [
+      {
+        "@type": "soa::v2::common::text",
+        "value": "1. Marcus aime aller au cinéma."
+      }
+    ]
+  }
+]
+

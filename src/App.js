@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import ItemFieldEditor from "./TextEditor/ItemFieldEditor";
+import TextEditor from "./TextEditor";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ItemFieldEditor className='editor' />
+        <TextEditor className='editor' />
       </div>
     );
   }

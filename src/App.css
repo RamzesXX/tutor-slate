@@ -16,3 +16,21 @@
     padding: 5px;
     margin: 5px;
 }
+
+
+.block-field {
+    display: block;
+    position: relative;
+}
+
+.inline-field {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+
+.media-asset-thumbnail {
+    width: 128px;
+    padding: 5px;
+}

@@ -5,7 +5,7 @@ import {
     deserializeArrayOfNodes
 } from "../common/Utils";
 
-export const type = 'styled_text';
+export const type = 'styled-text';
 
 /**
  * Deserializes 'styled-text' node

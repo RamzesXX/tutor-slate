@@ -17,6 +17,9 @@
     margin: 5px;
 }
 
+td {
+    border: 1px solid black ;
+}
 
 .block-field {
     display: block;

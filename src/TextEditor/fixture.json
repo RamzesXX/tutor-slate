@@ -4,7 +4,7 @@
     "children": [
       {
         "@type": "soa::v2::common::text",
-        "value": "Aujourd\u0027hui, c\u0027est lundi. Regardez l\u0027emploi du temps "
+        "value": "Aujourd\u0027hui, c\u0027est lundi. Regardez l\u0027emploi du temps ------"
       },
       {
         "@type": "soa::v2::cars::styled-text",
@@ -18,7 +18,7 @@
       },
       {
         "@type": "soa::v2::common::text",
-        "value": " de Mehdi et sélectionnez la réponse honnête qu\u0027il donne "
+        "value": "|||||||||||| de Mehdi et sélectionnez la réponse honnête qu\u0027il donne "
       },
       {
         "@type": "soa::v2::cars::styled-text",

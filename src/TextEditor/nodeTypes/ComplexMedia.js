@@ -1,3 +1,5 @@
+import React from "react";
+
 export const type = 'complex-media';
 
 /**
@@ -47,7 +49,9 @@ const getStubIconForMediaType = (mediaType) => {
 };
 
 export function getMediaElement(mediaType, cgiRef, url) {
-    const thumb = url && mediaType === 'image' && <img className="media-asset-thumbnail" src={url}/>;
+    const thumb = url
+        // && mediaType === 'image'
+        && <img className="media-asset-thumbnail" src={url} alt="thumb" />;
     const stub = getStubIconForMediaType(mediaType);
 
     if (stub) {
@@ -63,7 +67,7 @@ export function getMediaElement(mediaType, cgiRef, url) {
 }
 
 export function render(props) {
-    const {attributes, children, node} = props;
+    const {node} = props;
 
     return getMediaElement(node.data.get('media').mediaType, node.data.get('media').cgiRef, node.data.get('url'));
 }

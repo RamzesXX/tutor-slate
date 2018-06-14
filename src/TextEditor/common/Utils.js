@@ -1,3 +1,4 @@
+import React from 'react';
 import * as Text from '../nodeTypes/Text';
 import * as StyledText from '../nodeTypes/StyledText';
 import * as Paragraph from '../nodeTypes/Paragraph';
@@ -138,7 +139,7 @@ export function render(props) {
     const {attributes, children, node} = props;
     const typeProcessors = typeToProcessorMapping[node.type];
     const Tag = node.object === 'block' ? 'div' : 'span';
-    const className = node.object === 'paragraph' ? 'block-field' : 'inline-field';
+    const className = node.object === 'block' ? 'block-field' : 'inline-field';
 
     if (typeProcessors) {
         return typeProcessors.render(props);

@@ -26,13 +26,13 @@ const supportedNodeTypes = [
     Thead,
     Tbody,
     Tbodys,
-    Tfoot,
+    Tfoot
 ];
 
 const typeToProcessorMapping = {};
 
 supportedNodeTypes.forEach((nodeType) => {
-    typeToProcessorMapping[nodeType.type] ={ ...nodeType, carsType: nodeType.type };
+    typeToProcessorMapping[nodeType.type] = { ...nodeType, carsType: nodeType.type };
 });
 
 export function deleteChildrenFromNode(node) {
@@ -146,7 +146,7 @@ export function render(props) {
     }
 
     return (
-        <Tag {...attributes} className={className}>
+        <Tag {...attributes} className={className} qqqqq='11111111'>
             {children}
         </Tag>
     );

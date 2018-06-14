@@ -14,7 +14,7 @@ const json = {
         nodes: [
             {
                 object: 'block',
-                type: 'paragraph',
+                type: 'fake',
                 nodes: deserializeArrayOfNodes(example)
             }],
         object: 'document',
@@ -27,7 +27,7 @@ const initialValue = Value.fromJSON(json);
 export default class TextEditor extends Component {
     onChange = ({value}) => {
 
-        console.log(serializeArrayOfNodes(value.getIn(['document', 'nodes']).toJS()));
+        // console.log(serializeArrayOfNodes(value.getIn(['document', 'nodes']).toJS()));
         this.setState({value})
     };
 
